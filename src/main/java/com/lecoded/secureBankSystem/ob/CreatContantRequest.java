@@ -1,7 +1,7 @@
 package com.lecoded.secureBankSystem.ob;
 
-public class Contant {
-    private String number;
+public class CreatContantRequest {
+    private String phone;
     private String name;
     private String email;
 
@@ -22,12 +22,12 @@ public class Contant {
     }
 
 
-    public String getNumber() {
-        return number;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
 
